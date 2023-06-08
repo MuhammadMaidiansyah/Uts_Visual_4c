@@ -1,0 +1,97 @@
+object Form3: TForm3
+  Left = 287
+  Top = 133
+  Width = 711
+  Height = 480
+  Caption = 'Form3'
+  Color = clActiveCaption
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 176
+    Top = 80
+    Width = 29
+    Height = 13
+    Caption = 'Nilai 1'
+  end
+  object Label2: TLabel
+    Left = 176
+    Top = 112
+    Width = 29
+    Height = 13
+    Caption = 'Nilai 2'
+  end
+  object Label3: TLabel
+    Left = 176
+    Top = 144
+    Width = 29
+    Height = 13
+    Caption = 'Nilai 3'
+  end
+  object Label4: TLabel
+    Left = 176
+    Top = 192
+    Width = 24
+    Height = 13
+    Caption = 'Total'
+  end
+  object Label5: TLabel
+    Left = 176
+    Top = 224
+    Width = 29
+    Height = 13
+    Caption = 'Grade'
+  end
+  object Edit1: TEdit
+    Left = 232
+    Top = 80
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 232
+    Top = 112
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 232
+    Top = 144
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 232
+    Top = 184
+    Width = 121
+    Height = 21
+    TabOrder = 3
+    Text = 'Edit1'
+  end
+  object Edit5: TEdit
+    Left = 232
+    Top = 216
+    Width = 121
+    Height = 21
+    TabOrder = 4
+    Text = 'Edit1'
+  end
+  object Button1: TButton
+    Left = 400
+    Top = 152
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+end
